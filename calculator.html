@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+   <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+<style>
+  body {
+    background: url(Assets/refri.jpg) 
+    no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+  }
+
+ button{
+ 	margin:5px;
+ 	height: 65px;
+ 	width: 35px;
+ }
+
+ #tutu{
+ 	height: 45px;
+ 	width: 100px;
+ }
+
+ .yourownclass{
+     font-family: "Arial Bold", Gadget, sans-serif;
+     font-style: normal;
+     font-size: 25px; 
+  }
+  
+  .container{
+  	margin-top:60px;
+  }
+</style>
+
+<body>
+
+<div class="container">
+<!--   <div class="row"> -->
+    <div class="col-sm-6" style="background-color:white;">
+       <div class="panel panel-default">
+
+           <div class="panel-heading text-center" style="background-color:#666666;">
+              <h3 class="panel-title" style="color:white;">Calculator</h3>
+           </div>
+
+             <div class="panel-body">
+              <div class="text-center">
+                  <div class="row">
+				    <button type="button" id="yo" class="btn btn-primary yourownclass">1</button>
+				    <button type="button" id="yo" class="btn btn-primary yourownclass">2</button>
+				    <button type="button" id="yo" class="btn btn-primary yourownclass">3</button>
+				    <button type="button" id="yo" class="btn btn-danger yourownclass">+</button>
+				  </div>
+
+			      <div class="row">
+				    <button type="button" id="yo" class="btn btn-primary yourownclass">4</button>
+				    <button type="button" id="yo" class="btn btn-primary yourownclass">5</button>
+				    <button type="button" id="yo" class="btn btn-primary yourownclass">6</button>
+				    <button type="button" id="yo" class="btn btn-danger yourownclass">-</button>
+			      </div>
+
+			       <div class="row">
+				    <button type="button" id="yo" class="btn btn-primary yourownclass">7</button>
+				    <button type="button" id="yo" class="btn btn-primary yourownclass">8</button>
+				    <button type="button" id="yo" class="btn btn-primary yourownclass">9</button>
+				    <button type="button" id="yo" class="btn btn-danger yourownclass">*</button>
+			      </div>
+
+			       <div class="row">
+				    <button type="button" id="yo" class="btn btn-primary yourownclass">0</button>
+				    <button type="button" id="yo" class="btn btn-danger yourownclass">/</button>
+				    <button type="button" id="yo" class="btn btn-danger yourownclass">^</button>
+				    <button type="button" id="yo" class="btn btn-success yourownclass">=</button>
+			      </div>
+			     
+			     <div class="row">
+				    <button type="button" id="tutu" class="btn btn-warning">Clear</button> 
+			    </div>
+               </div><!--text-center-->
+             </div><!--panel-body-->
+       </div><!--panel panel-default-->
+    </div> <!--column-->
+
+    <div class="col-sm-6" style="background-color:lightgray;">
+     <div class="panel panel-default">
+
+           <div class="panel-heading text-center" style="background-color:#666666;">
+              <h3 class="panel-title" style="color:white;">Results</h3>
+           </div>
+     
+    </div>
+<!--   </div> -->
+ </div>
+<!-- <button type="button" class="btn btn-primary">Primary</button> -->
+
+</body>
+</html>
